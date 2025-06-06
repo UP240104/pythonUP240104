@@ -36,10 +36,21 @@ print("Circunferencia del círculo:", circunferencia)
 
 # y = 2x - 2
 #Usar {} para colocar variables en strings, necesario usar f en print
-pendiente = 2
-interseccion_y = -2
-interseccion_x = 1
-print(f"Pendiente: {pendiente}, intersección en x: {interseccion_x}, intersección en y: {interseccion_y}")
+pendiente = 2  # Pendiente 
+b = -2  # intersección en y (y-intercept)
+
+# Calcular el intersección  en x (y = 0)
+x_inter = -b / pendiente
+x_inter_p = (x_inter, 0)  # Punto (1, 0)
+
+# interceccion en y (x = 0)
+y_inter_p = (0, b)  # Punto (0, -2)
+
+# Mostrar resultados
+print("=== Análisis de la ecuación y = 2x - 2 ===")
+print(f"Pendiente: {pendiente}")
+print(f"intersección en y : {y_inter_p}")
+print(f"intersección en x : {x_inter_p}")
 
 # Pendiente y distancia euclidiana entre (2,2) y (6,10)
 x1, y1 = 2, 2
