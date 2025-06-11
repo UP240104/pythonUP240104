@@ -1,5 +1,5 @@
-from math import sqrt
-
+import math
+#--------LVL1-1-23---------
 edad = 18
 
 estatura = 1.75
@@ -57,7 +57,7 @@ x1, y1 = 2, 2
 x2, y2 = 6, 10
 pendiente2 = (y2 - y1) / (x2 - x1)
 
-distancia_euclidiana = sqrt((x2 - x1)**2 + (y2 - y1)**2)
+distancia_euclidiana = math.sqrt((x2 - x1)**2 + (y2 - y1)**2)
 print(f"Pendiente entre puntos: {pendiente2}")
 print(f"Distancia euclidiana: {distancia_euclidiana}")
 

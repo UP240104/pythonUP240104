@@ -1,12 +1,12 @@
 import math
-
+#--------LVL1-1-13---------
 #Día 2: 30 Días de programación python
 
 first_name = 'Diego'
 last_name = 'Verdin'
 full_name = 'Diego Verdin Mata'
 country = 'Mexico'
-city = 'X-box'
+city = 'Lorecongo'
 age = 19
 year = 2025
 is_married = False
@@ -14,7 +14,12 @@ is_true = True
 is_light_on = False
 
 # Declara Variables en una linea
-name, age, country, city = 'Diego', 19, 'Mexico', 'La chingada'
+name, age, country, city = 'Diego', 19, 'Mexico', 'Lorecongo'
+
+#--------LVL2-1-14---------
+
+
+#Día 2: 30 Días de programación python
 
 print(type(first_name))
 print(type(last_name))
@@ -49,8 +54,15 @@ remainder = num_two % num_one
 exp = num_one ** num_two
 floor_division = num_one // num_two
 
-print('Radio: 30m')
+print('total: ', total)
+print('diff: ', diff)
+print('product: ', product)
+print('division: ', division)
+print('remainder: ', remainder)
+print('exp: ', exp)
+print('floor_division: ', floor_division)
 
+print('Radio: 30m')
 
 area_of_circle = math.pi * math.pow(30,2)
 circum_of_circle = math.pi * 2 * 30

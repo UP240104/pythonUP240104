@@ -1,5 +1,5 @@
 import math
-
+#--------1---------
 # Entero (Integer)
 entero = 42
 print("Entero:", entero, type(entero))
@@ -36,7 +36,7 @@ print("Conjunto:", conjunto, type(conjunto))
 diccionario = {"nombre": "Ana", "edad": 30, "ciudad": "Madrid"}
 print("Diccionario:", diccionario, type(diccionario))
 
-
+#--------2---------
 #Puntos
 P1 = (2, 3)
 P2 = (10, 8)
