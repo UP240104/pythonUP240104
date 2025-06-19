@@ -59,8 +59,11 @@ print(acronimo1)
 
 # Acrónimo de 'Coding For All'
 palabras2 = 'Coding For All'.split()
-acronimo2 = ''.join([p[0] for p in palabras2])
-print(acronimo2)
+print(palabras2[0][0] + palabras2[1][0] + palabras2[2][0])  # C, F, A
+
+# Otra forma de obtener el acrónimo (comprension de lista)
+#acronimo2 = ''.join([p[0] for p in palabras2])
+#print(acronimo2)
 
 # Índice de la primera ocurrencia de 'C'
 print(empresa.index('C'))
